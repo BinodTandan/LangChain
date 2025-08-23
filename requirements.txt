@@ -30,3 +30,6 @@ streamlit
 
 # Data Validation
 pydantic
+
+# Visualization of chain
+grandalf
