@@ -1,35 +1,28 @@
-# LangChain Core
-langchain
-langchain-core
+# ---- Core LangChain stack ----
+langchain==0.3.27
+langsmith==0.4.33
 
-# OpenAI Integration
-langchain-openai
-openai
+# ---- LLM Providers  ----
+langchain-openai==0.2.14
+openai==1.108.0
 
-# Anthropic Integration
-langchain-anthropic
+langchain-anthropic==0.2.2      # For Claude models
+langchain-google-genai==2.1.12  # For Gemini 
+langchain-huggingface==0.3.1    # For Hugging Face / TinyLlama etc.
 
-# Google Gemini (PaLM) Integration
-langchain-google-genai
-google-generativeai
+# ---- Hugging Face dependencies ----
+transformers==4.45.2
+huggingface-hub==0.35.3
 
-# Hugging Face Integration
-langchain-huggingface
-transformers
-huggingface-hub
+# ---- Utilities ----
+python-dotenv==1.0.1
+pydantic==2.9.2
+numpy==2.1.2
+scikit-learn==1.5.2
+pandas==2.3.3
 
-# Environment Variable Management
-python-dotenv
+# ---- UI / visualization ----
+streamlit==1.38.0
+grandalf==0.8
 
-# Machine Learning Utilities
-numpy
-scikit-learn
 
-# UI 
-streamlit
-
-# Data Validation
-pydantic
-
-# Visualization of chain
-grandalf
