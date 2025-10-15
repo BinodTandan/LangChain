@@ -31,5 +31,5 @@ Long battery life with fast charging
 S-Pen support is unique and useful
 Review by Binod Tandan""")
 
-print(result)
+print(result['key_themes'])
 
